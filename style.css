@@ -216,26 +216,28 @@ h3 {
     top: 0.4rem;
     bottom: 0.6rem;
     width: 1px;
-    background: linear-gradient(to bottom, var(--accent-soft-brown), rgba(196, 176, 161, 0.05));
+    background: var(--accent-soft-brown);
+    opacity: 0.45;
 }
 .credential-node { position: relative; padding-bottom: 1.6rem; }
 .credential-node:last-child { padding-bottom: 0; }
 .node-marker {
     position: absolute;
-    left: -2.25rem;
-    top: 0.3rem;
-    width: 11px;
-    height: 11px;
-    background: var(--bg-dark-brown);
+    left: -2.26rem;
+    top: 0.28rem;
+    width: 10px;
+    height: 10px;
+    background: var(--accent-soft-brown);
     border: 1px solid var(--accent-soft-brown);
     border-radius: 50%;
+    box-shadow: 0 0 6px rgba(196, 176, 161, 0.3);
 }
 .credential-node.is-education .node-marker {
     width: 13px;
     height: 13px;
-    left: -2.29rem;
-    background: var(--accent-soft-brown);
-    box-shadow: 0 0 10px rgba(196, 176, 161, 0.35);
+    left: -2.3rem;
+    top: 0.26rem;
+    box-shadow: 0 0 10px rgba(196, 176, 161, 0.45);
 }
 .node-content {
     display: flex;
